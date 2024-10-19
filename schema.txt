@@ -1,0 +1,61 @@
+Product:
+- id
+- name
+- category
+- stock
+- description
+- created at
+- edited at
+
+Category:
+- id
+- name
+- description
+- created at
+- edited at
+
+User:
+- id
+- name
+- username
+- password
+- role
+- balance
+- created at
+- edited at
+
+Review:
+- id
+- product 
+- user 
+- rate
+- comment
+- created at
+- edited at
+
+Cart:
+- id
+- product
+- qty
+- user
+- created at
+- edited at
+
+Order Detail:
+- id
+- product
+- qty
+
+Order:
+- id
+- user
+- payment method
+- list of order detail 
+- created at
+- edited at
+
+Payment Method:
+- id
+- code
+- name
+- description

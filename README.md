@@ -1,0 +1,2 @@
+compile:
+g++ main.cpp models/Cart.cpp models/Category.cpp models/Order.cpp models/OrderDetail.cpp models/PaymentMethod.cpp models/Product.cpp models/Review.cpp models/User.cpp models/Menu.cpp services/AuthService.cpp services/CategoryService.cpp services/ProductService.cpp services/CartService.cpp services/PaymentService.cpp services/HelperService.cpp views/ProductView.cpp views/CartView.cpp views/MainView.cpp views/AuthView.cpp views/CategoryView.cpp -o app
